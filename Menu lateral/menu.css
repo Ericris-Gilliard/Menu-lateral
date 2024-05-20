@@ -1,0 +1,69 @@
+body{
+    height: 900vh;
+}
+
+nav.menu-lateral{
+     width: 80px;
+     height: 100%;
+     background-color:#abaca5  ;
+     padding: 40px 0 40px 1%;
+     box-shadow: 3px 0 0 #183859;
+     position: fixed;
+     top: 0;
+     left: -45px;
+      overflow: hidden;
+     transition: .2s;
+     
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+    
+}
+.btn-expandir > i{
+    color:#00c66e;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 35px;  
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.ativo{
+    background: #183859;
+}
+
+ul li.item-menu:hover{
+    background:#183859 ;
+}
+
+ul li.item-menu a{
+    color: #00c66e;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 20px;
+ 
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 20px;
+
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 30px;
+}
